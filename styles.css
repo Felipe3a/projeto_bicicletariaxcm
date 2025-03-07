@@ -1,0 +1,357 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none
+}
+
+.topo {
+
+    background-image: url("https://wallpapers.com/images/hd/mtb-ride-snow-covered-mountain-u83x3mqfcd0d5ulm.jpg");
+    height: 150vh;
+
+    width: 100vw;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    align-self: start;
+    justify-content: flex-start;
+    padding-top: 0%;
+    height: 30px;
+    align-content: center;
+
+
+
+}
+
+.logo.activ {}
+
+
+
+img {
+    display: flex;
+    align-items: flex-end;
+}
+
+.cabecalho {
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 38px;
+    padding-left: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out, padding 0.3s;
+}
+
+
+
+.titulo-cabecalho {
+    font-size: 20px;
+    color: #e3c639;
+    display: inline;
+
+}
+
+
+
+
+.link-cabecalho {
+    margin-left: 40px;
+    font-size: 20px;
+    color: #e3c639;
+    display: inline;
+    cursor: pointer;
+
+}
+
+.link-cabecalho:hover {
+
+    opacity: 0.4;
+}
+
+
+.link-cabecalho:active {
+
+
+    opacity: 0.9;
+}
+
+
+
+
+
+.nome {
+    color: #e3c639;
+    font-size: 50px;
+    position: inline;
+    padding-left: 35px;
+
+}
+
+
+
+
+
+
+
+.caixa-central {
+
+
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+#titulo-meio {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    color: #252b42;
+    text-align: center;
+}
+
+
+.titulo-card {
+    background-image: url("https://melhorbike.com/wp-content/uploads/ciclista-mountain-bike-e1675302443432.png");
+    color: #ffff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.card {
+
+    width: 300px;
+    border-radius: 10px;
+    background-color: #848389;
+    border: 1px solid #a9d6ff;
+    color: #e3c639;
+
+}
+
+ul {
+
+    padding: 20px;
+
+
+}
+
+li {
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+.caixa-inferior {
+    height: 350px;
+    background-color: rgb(4, 2, 34);
+}
+
+
+#titulo-inferior {
+    color: #e3c639;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.paragrafo-interior {
+    height: 100vh;
+    color: #e3c639;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 50px 50px;
+}
+
+
+
+#contatos {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #848389;
+    height: 250px;
+    color: #e3c639;
+    padding: 20px 20px 20px 20px;
+
+}
+
+.ancoras {
+    color: #e3c639;
+    cursor: pointer;
+    text-decoration: none;
+    transition: color 0.3s;
+
+}
+
+.ancoras :hover {
+    color: #ffffff;
+}
+
+.link-contatos a {
+    color: #e3c639;
+    text-decoration: none;
+    transition: color 0.3s;
+
+}
+
+.link-contatos a:hover {
+    color: #ffffff;
+
+}
+
+
+.corporete {
+    height: 100px;
+    background-color: black;
+}
+
+
+.logo2 {
+
+    display: flex;
+    align-items: center;
+
+    padding-top: 0%;
+    height: 30px;
+
+    align-content: center;
+
+
+
+}
+
+
+#contato {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .topo {
+        height: 50vh;
+    }
+
+    .cabecalho {
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    .titulo-cabecalho {
+        font-size: 10px;
+    }
+
+
+    .link-cabecalho {
+        display: flex;
+        flex-direction: column;
+        font-size: 8px;
+        margin-left: 0;
+        margin-top: 5px;
+    }
+
+
+    .caixa-central {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .card {
+        width: 90%;
+        max-width: 300px;
+        margin-bottom: 15px;
+        border-radius: 10px;
+        background-color: #848389;
+        border: 1px solid #a9d6ff;
+        color: #e3c639;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .titulo-card {
+        background-image: url("https://melhorbike.com/wp-content/uploads/ciclista-mountain-bike-e1675302443432.png");
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        border-radius: 10px 10px 0 0;
+    }
+
+
+    #titulo-meio,
+    #Sobre {
+        font-size: 25px;
+        text-align: center;
+        color: #e3c639;
+        margin: 20px 0;
+    }
+
+
+    .paragrafo-interior {
+        font-size: 16px;
+        text-align: center;
+        padding: 15px;
+        color: #e3c639;
+    }
+
+
+    #contatos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #848389;
+        color: #e3c639;
+        padding: 20px;
+        height: auto;
+    }
+
+    .link-contatos a {
+        font-size: 14px;
+        color: #e3c639;
+        text-decoration: none;
+        margin-bottom: 10px;
+    }
+
+    .link-contatos a:hover {
+        color: #fff;
+    }
+
+
+    .corporete {
+        height: 50px;
+        background-color: black;
+    }
+}
